@@ -2,11 +2,12 @@
 
 /* General Styles */
 
+
 body{
     font-size: 14px;
     line-height: 1.42857143;
     color: #333333;
-    background: #f0f0f0;
+    background: #4fbfa8;
     overflow-x: hidden;
 }
 
@@ -392,3 +393,4 @@ body{
 #copyright p{
     margin: 0px;
 }
+

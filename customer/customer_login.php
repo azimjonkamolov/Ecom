@@ -18,9 +18,9 @@
       
       <div class="form-group"><!-- form-group Begin -->
           
-          <label> Email </label>
+          <label> Name </label>
           
-          <input name="c_email" type="text" class="form-control" required>
+          <input name="c_name" type="text" class="form-control" required>
           
       </div><!-- form-group Finish -->
       
@@ -61,11 +61,11 @@
 
 if(isset($_POST['login'])){
     
-    $customer_email = $_POST['c_email'];
+    $customer_name = $_POST['c_name'];
     
     $customer_pass = $_POST['c_pass'];
     
-    $select_customer = "select * from customers where customer_email='$customer_email' AND customer_pass='$customer_pass'";
+    $select_customer = "select * from customers where customer_name='$customer_name' AND customer_pass='$customer_pass'";
     
     $run_customer = mysqli_query($con,$select_customer);
     
@@ -81,7 +81,7 @@ if(isset($_POST['login'])){
     
     if($check_customer==0){
         
-        echo "<script>alert('Your email or password is wrong')</script>";
+        echo "<script>alert('Your name or password is wrong')</script>";
         
         exit();
         
@@ -89,7 +89,7 @@ if(isset($_POST['login'])){
     
     if($check_customer==1 AND $check_cart==0){
         
-        $_SESSION['customer_email']=$customer_email;
+        $_SESSION['customer_name']=$customer_name;
         
        echo "<script>alert('You are Logged in')</script>"; 
         
@@ -97,7 +97,7 @@ if(isset($_POST['login'])){
         
     }else{
         
-        $_SESSION['customer_email']=$customer_email;
+        $_SESSION['customer_name']=$customer_name;
         
        echo "<script>alert('You are Logged in')</script>"; 
         

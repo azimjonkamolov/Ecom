@@ -4,9 +4,9 @@
         
         <?php
         
-        $customer_session = $_SESSION['customer_email'];
+        $customer_session = $_SESSION['customer_name'];
         
-        $get_customer = "select * from customers where customer_email='$customer_session'";
+        $get_customer = "select * from customers where customer_name='$customer_session'";
         
         $run_customer = mysqli_query($con, $get_customer);
         
@@ -16,7 +16,7 @@
         
         $customer_name = $row_customer['customer_name'];
         
-        if(!isset($_SESSION['customer_email']))
+        if(!isset($_SESSION['customer_name']))
         {
             
             

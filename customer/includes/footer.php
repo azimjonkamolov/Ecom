@@ -20,7 +20,7 @@
                     
                     <?php
                            
-                           if(!isset($_SESSION['customer_email']))
+                           if(!isset($_SESSION['customer_name']))
                            {
                                echo"<a href='checkout.php'>Login</a>";
                            }
@@ -35,7 +35,7 @@
                     
                         <?php
                            
-                           if(!isset($_SESSION['customer_email']))
+                           if(!isset($_SESSION['customer_name']))
                            {
                                echo"<a href='../checkout.php'>Login</a>";
                            }

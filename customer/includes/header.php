@@ -67,13 +67,13 @@ if(isset($_GET['pro_id'])){
                    
                    <?php 
                    
-                   if(!isset($_SESSION['customer_email'])){
+                   if(!isset($_SESSION['customer_name'])){
                        
-                       echo "Welcome: Guest";
+                       echo "Welcome";
                        
                    }else{
                        
-                       echo "Welcome: " . $_SESSION['customer_email'] . "";
+                       echo "" . $_SESSION['customer_name'] . "";
                        
                    }
                    
@@ -102,7 +102,7 @@ if(isset($_GET['pro_id'])){
                        
                         <?php 
                            
-                           if(!isset($_SESSION['customer_email'])){
+                           if(!isset($_SESSION['customer_name'])){
                        
                                 echo "<a href='checkout.php'> Login </a>";
 
@@ -133,8 +133,8 @@ if(isset($_GET['pro_id'])){
                
                <a href="../index.php" class="navbar-brand home"><!-- navbar-brand home Begin -->
                    
-                   <img src="images/ecom-store-logo.png" alt="M-dev-Store Logo" class="hidden-xs">
-                   <img src="images/ecom-store-logo-mobile.png" alt="M-dev-Store Logo Mobile" class="visible-xs">
+                   <img src="images/hum.png" alt="M-dev-Store Logo" class="hidden-xs">
+                   <img src="images/hum-mobile.png" alt="M-dev-Store Logo Mobile" class="visible-xs">
                    
                </a><!-- navbar-brand home Finish -->
                

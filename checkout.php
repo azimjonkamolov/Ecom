@@ -34,7 +34,7 @@
            
            <?php 
            
-           if(!isset($_SESSION['customer_email'])){
+           if(!isset($_SESSION['customer_name'])){
                
                include("customer/customer_login.php");
                

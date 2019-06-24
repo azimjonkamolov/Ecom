@@ -35,13 +35,13 @@ include("functions/functions.php");
                    
                    <?php 
                    
-                   if(!isset($_SESSION['customer_email'])){
+                   if(!isset($_SESSION['customer_name'])){
                        
-                       echo "Welcome: Guest";
+                       echo "Welcome";
                        
                    }else{
                        
-                       echo "Welcome: " . $_SESSION['customer_email'] . "";
+                       echo "" . $_SESSION['customer_name'] . "";
                        
                    }
                    
@@ -70,7 +70,7 @@ include("functions/functions.php");
                        
                         <?php 
                            
-                           if(!isset($_SESSION['customer_email'])){
+                           if(!isset($_SESSION['customer_name'])){
                        
                                 echo "<a href='checkout.php'> Login </a>";
 

@@ -2,9 +2,9 @@
    
    <?php 
     
-    $session_email = $_SESSION['customer_email'];
+    $session_name = $_SESSION['customer_name'];
     
-    $select_customer = "select * from customers where customer_email='$session_email'";
+    $select_customer = "select * from customers where customer_name='$session_name'";
     
     $run_customer = mysqli_query($con,$select_customer);
     
