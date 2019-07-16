@@ -1,6 +1,6 @@
 # Ecommerce Website
 
-** This online shopping website is build using PHP and MYSQL RDBMS and SQL language **
+**This online shopping website is build using PHP and MYSQL RDBMS and SQL language**
 
 ---
 
