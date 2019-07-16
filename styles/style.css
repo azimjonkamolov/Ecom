@@ -7,7 +7,7 @@ body{
     font-size: 14px;
     line-height: 1.42857143;
     color: #333333;
-    background: #4fbfa8;
+    background: #fff;
     overflow-x: hidden;
 }
 
@@ -128,8 +128,9 @@ body{
     box-shadow: 0px 2px 5px rgba(0, 0, 0, .3);
 }
 #advantages .box .icon{
+    padding-top: 30px;
     position: absolute;
-    font-size: 120px;
+    font-size: 100px;
     width: 100%;
     text-align: center;
     top: -20px;
@@ -148,7 +149,7 @@ body{
     z-index: 2;
 }
 #advantages .box h3 a{
-    color: #4fbfa8;
+    color: #fff;
 }
 #advantages .box h3 a:hover{
     text-decoration: none;
@@ -164,7 +165,7 @@ body{
 #hot h2{
     font-size: 36px;
     font-weight: 400;
-    color: #4fbfa8;
+    color: #fff;
     text-align: center;
     text-transform: uppercase;
 }
