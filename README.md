@@ -1,2 +1,1 @@
-# Ecom
-This is an Ecom
+# Ecommerce Website
