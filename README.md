@@ -10,6 +10,8 @@
 
 ---
 
+Used: PHP, JavaScript, Hack, SASS, MYSQL, SQL
+
 <p float="left">
 <img src="https://github.com/mynameisone/Main/blob/master/img/PHP.png?raw=true" width = "100" height="60" alt="PHP" />
 <img src="https://github.com/mynameisone/Main/blob/master/img/JS.png?raw=true" width = "100" height="60" alt="JS" />
