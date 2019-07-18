@@ -18,5 +18,5 @@ Used: PHP, JavaScript, Hack, SASS, MYSQL, SQL
 <img src="https://github.com/mynameisone/Main/blob/master/img/H.png?raw=true" width = "100" height="60" alt="Hack" />
 <img src="https://github.com/mynameisone/Main/blob/master/img/S.png?raw=true" width = "100" height="60" alt="SASS" />
 <img src="https://github.com/mynameisone/Main/blob/master/img/SQL.png?raw=true" width = "100" height="60" alt="MYSQL" />
-<img src="https://github.com/mynameisone/Main/blob/master/img/PHP.png?raw=true" width = "100" height="60" alt="SQL" />
+<img src="https://github.com/mynameisone/Main/blob/master/img/M.png?raw=true" width = "100" height="60" alt="SQL" />
 </p>
