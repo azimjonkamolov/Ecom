@@ -2,14 +2,20 @@
 
 session_start();
 
-if(!isset($_SESSION))
-{
-    echo "<script>window.open('../check.php', '_self')</script>";
-}
-else
-{
+if(!isset($_SESSION['customer_name'])){
+    
+    echo "<script>window.open('../checkout.php','_self')</script>";
+    
+}else{
+
 include("includes/db.php");
-include("functions/functions.php");   
+include("functions/functions.php");
+    
+if(isset($_GET['order_id'])){
+    
+    $order_id = $_GET['order_id'];
+    
+}
 
 ?>
 <!DOCTYPE html>
@@ -34,13 +40,13 @@ include("functions/functions.php");
                    
                    <?php 
                    
-                   if(!isset($_SESSION['customer_email'])){
+                   if(!isset($_SESSION['customer_name'])){
                        
                        echo "Welcome: Guest";
                        
                    }else{
                        
-                       echo "Welcome: " . $_SESSION['customer_email'] . "";
+                       echo "Welcome: " . $_SESSION['customer_name'] . "";
                        
                    }
                    
@@ -69,7 +75,7 @@ include("functions/functions.php");
                        
                         <?php 
                            
-                           if(!isset($_SESSION['customer_email'])){
+                           if(!isset($_SESSION['customer_name'])){
                        
                                 echo "<a href='checkout.php'> Login </a>";
 
@@ -149,7 +155,7 @@ include("functions/functions.php");
                    
                </div><!-- padding-nav Finish -->
                
-               <a href="cart.php" class="btn navbar-btn btn-primary right"><!-- btn navbar-btn btn-primary Begin -->
+               <a href="../cart.php" class="btn navbar-btn btn-primary right"><!-- btn navbar-btn btn-primary Begin -->
                    
                    <i class="fa fa-shopping-cart"></i>
                    
@@ -198,156 +204,170 @@ include("functions/functions.php");
        </div><!-- container Finish -->
        
    </div><!-- navbar navbar-default Finish -->
-     
-      <div id="content">    <!-- content Begins -->
-       <div class="container">    <!-- container Begins -->
-           <div class="col-md-12">    <!-- col-md-12 Begins -->
+   
+   <div id="content"><!-- #content Begin -->
+       <div class="container"><!-- container Begin -->
+           <div class="col-md-12"><!-- col-md-12 Begin -->
                
-               <ul class="breadcrumb">    <!-- breadcrumb Begins -->
+               <ul class="breadcrumb"><!-- breadcrumb Begin -->
                    <li>
                        <a href="index.php">Home</a>
                    </li>
-                    <li>
-                        My Account
-                    </li>
-               </ul>    <!-- breadcrumb Finishs -->
+                   <li>
+                       My Account
+                   </li>
+               </ul><!-- breadcrumb Finish -->
                
-           </div>    <!-- col-md-12 Finishs -->
+           </div><!-- col-md-12 Finish -->
            
-           <div class="col-md-3">    <!-- col-md-3 Begins --> 
-           <?php
-               include("includes/sidebar.php")
-            ?>
-           </div>    <!-- col-md-3 Fin ishs -->
-          <div class="col-md-9">
-              
-               <div class="box">
-                   
-                   <h1 align="center">
-                       
-                       <form action="confirm.php" method="post" enctype="multipart/form-data">
-                           
-                           <div class="form-group">
-                                   
-                            <label> Invoice No: </label>   
-                            
-                                <input type="text" class="form-control" name="invoice_no" required>
-                           
-                           </div>
-                           
-                           <div class="form-group">
-                                   
-                            <label> Amount Sent: </label>   
-                            
-                                <input type="text" class="form-control" name="invoice_no" required>
-                           
-                           </div>
-                           
-                           <div class="form-group">
-                                   
-                            <label> Select Payment Method: </label>   
-                            
-                                <select type="payment_method" class="form-control">
-                                
-                                <option> Select Payment Method </option>
-                                <option> Back Code </option>
-                                <option> UBL / Omni Paisa </option>
-                                <option> Easy Paisa </option>
-                                <option> Western Union </option>
-                                
-                               </select>
-                           
-                           </div>
-                           
-                           <div class="form-group">
-                               
-                               <label> Transaction / Reference ID: </label>
-                               
-                                   <input type="text" class="form-control" name="ref_no" required>
-                               
-                           </div>
-                           
-                           <div class="form-group">
-                               
-                               <label> Omni Paisa / East Paisa: </label>
-                               
-                                   <input type="text" class="form-control" name="code" required>
-                               
-                           </div>
-                           
-                           <div class="form-group">
-                               
-                               <label> Payment Date: </label>
-                               
-                                   <input type="text" class="form-control" name="date" required>
-                               
-                           </div>
-                           
-                           <div class="text-center">
-                               
-                                   <button class="btn btn-primary btn-lg">
-                                   
-                                       <i class="fa fa-user-md"></i> Confirm Payment
-                                   
-                                   </button>
-                               
-                           </div>
-                           
-                       </form>
-                       
-                   </h1>
-                   
-               </div>
-              
-          </div>      
-     
-          </div> <!-- container Finishs-->
-          
-          
-        </div> <!-- content Finishs-->
+           <div class="col-md-3"><!-- col-md-3 Begin -->
+   
+   <?php 
     
-            <?php
-               include("includes/footer.php")
-            ?>
+    include("includes/sidebar.php");
+    
+    ?>
+               
+           </div><!-- col-md-3 Finish -->
+           
+           <div class="col-md-9"><!-- col-md-9 Begin -->
+               
+               <div class="box"><!-- box Begin -->
+                   
+                   <h1 align="center"> Please confirm your payment</h1>
+                   
+                   <form action="confirm.php?update_id='<?php echo $order_id;  ?>'" method="post" enctype="multipart/form-data"><!-- form Begin -->
+                       
+                       <div class="form-group"><!-- form-group Begin -->
+                           
+                         <label> Invoice No: </label>
+                          
+                          <input type="text" class="form-control" name="invoice_no" required>
+                           
+                       </div><!-- form-group Finish -->
+                       
+                       <div class="form-group"><!-- form-group Begin -->
+                           
+                         <label> Amount Sent: </label>
+                          
+                          <input type="text" class="form-control" name="amount_sent" required>
+                           
+                       </div><!-- form-group Finish -->
+                       
+                       <div class="form-group"><!-- form-group Begin -->
+                           
+                         <label> Select Payment Mode: </label>
+                          
+                          <select name="payment_mode" class="form-control"><!-- form-control Begin -->
+                              
+                              <option> Select Payment Mode </option>
+                              <option> Back Code </option>
+                              <option> UBL / Omni Paisa </option>
+                              <option> Easy Paisa </option>
+                              <option> Western Union </option>
+                              
+                          </select><!-- form-control Finish -->
+                           
+                       </div><!-- form-group Finish -->
+                       
+                       <div class="form-group"><!-- form-group Begin -->
+                           
+                         <label> Transaction / Reference ID: </label>
+                          
+                          <input type="text" class="form-control" name="ref_no" required>
+                           
+                       </div><!-- form-group Finish -->
+                       
+                       <div class="form-group"><!-- form-group Begin -->
+                           
+                         <label> Omni Paisa / Easy Paisa: </label>
+                          
+                          <input type="text" class="form-control" name="code" required>
+                           
+                       </div><!-- form-group Finish -->
+                       
+                       <div class="form-group"><!-- form-group Begin -->
+                           
+                         <label> Payment Date: </label>
+                          
+                          <input type="text" class="form-control" name="date" required>
+                           
+                       </div><!-- form-group Finish -->
+                       
+                       <div class="text-center"><!-- text-center Begin -->
+                           
+                           <button class="btn btn-primary btn-lg"><!-- tn btn-primary btn-lg Begin -->
+                               
+                               <i class="fa fa-user-md"></i> Confirm Payment
+                               
+                           </button><!-- tn btn-primary btn-lg Finish -->
+                           
+                       </div><!-- text-center Finish -->
+                       
+                   </form><!-- form Finish -->
+                   
+                    <?php
+
+                        if(isset($_POST['confirm_payment']))
+                        {
+                            $update_id = $_GET['update_id'];
+
+                            $invoice_no = $_POST['invoice_no'];
+
+                            $amount = $_POST['amount_sent'];
+
+                            $payment_mode = $_POST['payment_mode'];
+
+                            $ref_no = $_POST['ref_no'];
+
+                            $code = $_POST['code'];
+
+                            $payment_date = $_GET['date'];
+
+                            $complete = "Complete";
+
+                            $insert_payment = "INSERT INTO payments (invoice_no, amount, payment_mode, ref_no, code, payment_date) values ('$invoice_no', '$amount', '$payment_mode', '$ref_no', '$code', '$payment_date')";
+
+                            run_payment = mysqli_query($con, $insert_payment);
+
+                            $update_customer_order = "UPDATE customer_orders SET order_status='$complete' WHERE order_id='$update_id'";
+
+                            $run_customer_order = mysqli_query($con, $update_customer_order);
+
+                            $update_pending_order = "UPDATE pending_orders SET order_status='$complete' WHERE order_id='$update_id'";
+
+                            $run_pending_order = mysqli_query($con, $update_pending_order);
+
+                            if($run_pending_order)
+                            {
+                                echo "<script>alert('Thank you for purchasing, your orders will be completed within 24 hours work')</script>";
+
+                                echo "<script>window.open('my_account.php?my_orders','_self')</script>"; 
+                            }
+
+                        }
+
+                    ?>
+
+               </div><!-- box Finish -->
+               
+           </div><!-- col-md-9 Finish -->
+           
+       </div><!-- container Finish -->
+   </div><!-- #content Finish -->
+   
+   <?php 
+    
+    include("includes/footer.php");
+    
+    ?>
     
     <script src="js/jquery-331.min.js"></script>
     <script src="js/bootstrap-337.min.js"></script>
     
     
 </body>
-</html>   
+</html>
 
 <?php } ?>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!---->

@@ -2,7 +2,7 @@
 
 session_start();
 
-if(!isset($_SESSION))
+if(!isset($_SESSION['customer_name']))
 {
     echo "<script>window.open('../check.php', '_self')</script>";
 }
@@ -288,4 +288,5 @@ include("functions/functions.php");
     
 </body>
 </html>
+
 <?php } ?>
