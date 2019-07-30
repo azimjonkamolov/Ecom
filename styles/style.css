@@ -395,3 +395,7 @@ body{
     margin: 0px;
 }
 
+.col-sm-4 p
+{
+    color: #000;
+}

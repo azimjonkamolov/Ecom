@@ -124,7 +124,7 @@
                            
                        </div><!-- icon Finish -->
                        
-                       <h3><a href="#">Best Prices</a></h3>
+                       <h3><a href="#" class = "threetexts" >Best Prices</a></h3>
                        
                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                        

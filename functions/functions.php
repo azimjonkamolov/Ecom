@@ -63,7 +63,7 @@ function getPro(){
     
     global $db;
     
-    $get_products = "select * from products order by 1 DESC LIMIT 0,8";
+    $get_products = "SELECT * FROM products ORDER BY 1 DESC LIMIT 0,4";
     
     $run_products = mysqli_query($db,$get_products);
     
@@ -143,7 +143,7 @@ function getPCats(){
     
     global $db;
     
-    $get_p_cats = "select * from product_categories";
+    $get_p_cats = "SELECT * FROM product_categories";
     
     $run_p_cats = mysqli_query($db,$get_p_cats);
     

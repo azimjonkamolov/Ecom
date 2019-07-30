@@ -175,13 +175,13 @@
                <div id="row same-heigh-row"><!-- #row same-heigh-row Begin -->
                    <div class="col-md-3 col-sm-6"><!-- col-md-3 col-sm-6 Begin -->
                        <div class="box same-height headline"><!-- box same-height headline Begin -->
-                           <h3 class="text-center">Products You Maybe Like</h3>
+                           <h3 class="text-center">Products You May Like</h3>
                        </div><!-- box same-height headline Finish -->
                    </div><!-- col-md-3 col-sm-6 Finish -->
                    
                    <?php
                    
-                   $get_products = "select * from products order by 1 DESC LIMIT 0,3";  // number control from here jkfhsdjkfhsdkfjhsdk <<<<<<<<<<<<
+                   $get_products = "select * from products order by 1 DESC LIMIT 0,2";  // number control from here jkfhsdjkfhsdkfjhsdk <<<<<<<<<<<<
                    
                    $run_products = mysqli_query($con, $get_products);
                    
