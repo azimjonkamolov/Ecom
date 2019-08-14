@@ -1,4 +1,4 @@
-<img src="https://github.com/mynameisone/Ecom/blob/master/images/Phoenix.png?raw=true" align="right" />
+<img src="https://github.com/mynameisone/Ecom/blob/master/images/Phoenix.png?raw=true" align="right" height="150"/>
 
 Ecommerce website
 ===================
@@ -8,6 +8,7 @@ Ecommerce website
 ---
 <p float="left">
 <img src="https://github.com/mynameisone/Main/blob/master/img/p1.PNG?raw=true" width = "400" height="250" alt="First pirture" /> 
+<img src="https://github.com/mynameisone/Main/blob/master/img/p11.PNG?raw=true" width = "400" height="250" alt="First pirture" /> 
 </p>
 
 ---
