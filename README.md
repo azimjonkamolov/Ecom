@@ -1,3 +1,4 @@
+<img src="images/Phoenix-Copy-Copy.png" align="right" />
 # Ecommerce Website
 
 **This online shopping website is built using PHP and MYSQL RDBMS and SQL language**
