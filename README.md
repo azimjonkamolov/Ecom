@@ -29,7 +29,13 @@ For further help please contact: `azimjon.6561@gmail.com`
 
 ## Functions that this website can handle so far ##
 
-    Markup :  ## Heading 2 ##
+    * Admin can insert a new product
+    * Customer can order
+    * Customer can check items by categories
+    * Customer can save items in a cart
+    * Customer can delete or but items from cart
+    * Registration and Log in
+    * Update information anytime
 
 
 ## 📝 License
