@@ -1,4 +1,4 @@
-<img src="images/Phoenix-Copy-Copy.png" align="right" />
+<img src="https://github.com/mynameisone/Ecom/blob/master/images/Phoenix.png?raw=true" align="right" />
 # Ecommerce Website
 
 **This online shopping website is built using PHP and MYSQL RDBMS and SQL language**
