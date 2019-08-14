@@ -1,5 +1,7 @@
 <img src="https://github.com/mynameisone/Ecom/blob/master/images/Phoenix.png?raw=true" align="right" />
-# ${1:Ecommerce}
+
+Ecommerce website
+===================
 
 **This online shopping website is built using PHP and MYSQL RDBMS and SQL language**
 
