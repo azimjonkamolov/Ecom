@@ -19,12 +19,12 @@ For further help please contact: `azimjon.6561@gmail.com`
 ## Used Languages and Frameworkes: ##
 
 <p float="left">
-<img src="https://github.com/mynameisone/Main/blob/master/img/PHP.png?raw=true" width = "150" height="150" alt="PHP" />
-<img src="https://github.com/mynameisone/Main/blob/master/img/JS.png?raw=true" width = "150" height="150" alt="JS" />
-<img src="https://github.com/mynameisone/Main/blob/master/img/H.png?raw=true" width = "150" height="150" alt="Hack" />
-<img src="https://github.com/mynameisone/Main/blob/master/img/S.png?raw=true" width = "150" height="150" alt="SASS" />
-<img src="https://github.com/mynameisone/Main/blob/master/img/SQL.png?raw=true" width = "150" height="150" alt="MYSQL" />
-<img src="https://github.com/mynameisone/Main/blob/master/img/M.png?raw=true" width = "150" height="150" alt="SQL" />
+<img src="https://github.com/mynameisone/Main/blob/master/img/PHP.png?raw=true" width = "125" height="150" alt="PHP" />
+<img src="https://github.com/mynameisone/Main/blob/master/img/JS.png?raw=true" width = "125" height="150" alt="JS" />
+<img src="https://github.com/mynameisone/Main/blob/master/img/H.png?raw=true" width = "125" height="150" alt="Hack" />
+<img src="https://github.com/mynameisone/Main/blob/master/img/S.png?raw=true" width = "125" height="150" alt="SASS" />
+<img src="https://github.com/mynameisone/Main/blob/master/img/SQL.png?raw=true" width = "125" height="150" alt="MYSQL" />
+<img src="https://github.com/mynameisone/Main/blob/master/img/M.png?raw=true" width = "125" height="150" alt="SQL" />
 </p>
 
 ## Functions that this website can handle so far ##
