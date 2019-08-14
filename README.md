@@ -14,8 +14,8 @@ Ecommerce website
 ---
 
 ## Installation
-To run this project, 'XAMPP application' must be installed and then all the files must be put inside of 'htdocs' which can be found where XAMPP is installed and after setting all the files inside of htdocs, XAMPP must be run and Apache and MySQL must be started then the project can be seen after running 'localhost' if there are other files to then specific location must be showen such as 'localhost/ecom/index.php' in browser however this git does not contain SQL of this project
-For further help please contact: azimjon.6561@gmail.com
+To run this project, `XAMPP aplication` must be installed and then all the files must be put inside of `htdocs` which can be found where XAMPP is installed and after setting all the files inside of htdocs, XAMPP must be run and Apache and MySQL must be started then the project can be seen after running `localhost` if there are other files to then specific location must be showen such as `localhost/ecom/index.php` in browser however this git does not contain SQL of this project
+For further help please contact: `azimjon.6561@gmail.com`
 
 Used: PHP, JavaScript, Hack, SASS, MYSQL, SQL
 
