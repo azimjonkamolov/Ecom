@@ -20,9 +20,9 @@ For further help please contact: `azimjon.6561@gmail.com`
 
 <p float="left">
 <img src="https://github.com/mynameisone/Main/blob/master/img/PHP.png?raw=true" width = "125" height="150" alt="PHP" />
-<img src="https://github.com/mynameisone/Main/blob/master/img/JS.png?raw=true" width = "125" height="150" alt="JS" />
-<img src="https://github.com/mynameisone/Main/blob/master/img/H.png?raw=true" width = "125" height="150" alt="Hack" />
-<img src="https://github.com/mynameisone/Main/blob/master/img/S.png?raw=true" width = "125" height="150" alt="SASS" />
+<img src="https://github.com/mynameisone/Main/blob/master/img/js1.jpg?raw=true" width = "125" height="150" alt="JS" />
+<img src="https://github.com/mynameisone/Main/blob/master/img/HACK.png?raw=true" width = "125" height="150" alt="Hack" />
+<img src="https://github.com/mynameisone/Main/blob/master/img/SASS.png?raw=true" width = "125" height="150" alt="SASS" />
 <img src="https://github.com/mynameisone/Main/blob/master/img/SQL.png?raw=true" width = "125" height="150" alt="MYSQL" />
 <img src="https://github.com/mynameisone/Main/blob/master/img/M.png?raw=true" width = "125" height="150" alt="SQL" />
 </p>
