@@ -24,8 +24,8 @@ For further help please contact: `azimjon.6561@gmail.com`
 <img src="https://github.com/azimjonkamolov/azimjon/blob/master/assets/img/icons/j.png?raw=true" width = "125" height="150" alt="JS" />
 <img src="https://github.com/azimjonkamolov/azimjon/blob/master/assets/img/icons/jquery.png?raw=true" width = "125" height="150" alt="jQuery" />
 <img src="https://github.com/azimjonkamolov/azimjon/blob/master/assets/img/icons/ajax.png?raw=true" width = "125" height="150" alt="AJAX" />
-<img src="https://github.com/azimjonkamolov/azimjon/blob/master/assets/img/icons/css.png?raw=true" width = "125" height="150" alt="CSS" />
-<img src="https://github.com/azimjonkamolov/azimjon/blob/master/assets/img/icons/html.png?raw=true" width = "125" height="150" alt="HTML" />
+<!-- <img src="https://github.com/azimjonkamolov/azimjon/blob/master/assets/img/icons/css.png?raw=true" width = "125" height="150" alt="CSS" />
+<img src="https://github.com/azimjonkamolov/azimjon/blob/master/assets/img/icons/html.png?raw=true" width = "125" height="150" alt="HTML" /> -->
 </p>
 
 ## Functions that this website can handle so far ##
