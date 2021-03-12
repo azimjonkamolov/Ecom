@@ -6,8 +6,8 @@
 
 ---
 <p float="left">
-<img src="https://github.com/mynameisone/Main/blob/master/img/p1.PNG?raw=true" width = "400" height="250" alt="First pirture" /> 
-<img src="https://github.com/mynameisone/Main/blob/master/img/p11.PNG?raw=true" width = "400" height="250" alt="First pirture" /> 
+<img src="https://github.com/azimjonkamolov/azimjon/blob/master/assets/img/p1.PNG?raw=true" width = "400" height="250" alt="First pirture" /> 
+<img src="https://github.com/azimjonkamolov/azimjon/blob/master/assets/img/p11.PNG?raw=true" width = "400" height="250" alt="First pirture" /> 
 </p>
 
 ---
@@ -19,7 +19,7 @@ For further help please contact: `azimjon.6561@gmail.com`
 ## Used Languages and Frameworkes: ##
 
 <p float="left">
-<img src="https://github.com/mynameisone/Main/blob/master/img/PHP.png?raw=true" width = "125" height="150" alt="PHP" />
+<img src="https://github.com/mynameisone/Main/blob/master/assets/img/PHP.png?raw=true" width = "125" height="150" alt="PHP" />
 <img src="https://github.com/mynameisone/Main/blob/master/img/js1.jpg?raw=true" width = "125" height="150" alt="JS" />
 <img src="https://github.com/mynameisone/Main/blob/master/img/HACK.png?raw=true" width = "125" height="150" alt="Hack" />
 <img src="https://github.com/mynameisone/Main/blob/master/img/SASS.png?raw=true" width = "125" height="150" alt="SASS" />
