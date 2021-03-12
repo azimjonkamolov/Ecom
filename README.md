@@ -19,12 +19,13 @@ For further help please contact: `azimjon.6561@gmail.com`
 ## Used Languages and Frameworkes: ##
 
 <p float="left">
-<img src="https://github.com/mynameisone/Main/blob/master/assets/img/PHP.png?raw=true" width = "125" height="150" alt="PHP" />
-<img src="https://github.com/mynameisone/Main/blob/master/img/js1.jpg?raw=true" width = "125" height="150" alt="JS" />
-<img src="https://github.com/mynameisone/Main/blob/master/img/HACK.png?raw=true" width = "125" height="150" alt="Hack" />
-<img src="https://github.com/mynameisone/Main/blob/master/img/SASS.png?raw=true" width = "125" height="150" alt="SASS" />
-<img src="https://github.com/mynameisone/Main/blob/master/img/SQL.png?raw=true" width = "125" height="150" alt="MYSQL" />
-<img src="https://github.com/mynameisone/Main/blob/master/img/M.png?raw=true" width = "125" height="150" alt="SQL" />
+<img src="https://github.com/azimjonkamolov/azimjon/blob/master/assets/img/icons/php.png?raw=true" width = "125" height="150" alt="PHP" />
+<img src="https://github.com/azimjonkamolov/azimjon/blob/master/assets/img/icons/mysql.png?raw=true" width = "125" height="150" alt="MYSQL" />
+<img src="https://github.com/azimjonkamolov/azimjon/blob/master/assets/img/icons/j.png?raw=true" width = "125" height="150" alt="JS" />
+<img src="https://github.com/azimjonkamolov/azimjon/blob/master/assets/img/icons/jquery.png?raw=true" width = "125" height="150" alt="jQuery" />
+<img src="https://github.com/azimjonkamolov/azimjon/blob/master/assets/img/icons/ajax.png?raw=true" width = "125" height="150" alt="AJAX" />
+<img src="https://github.com/azimjonkamolov/azimjon/blob/master/assets/img/icons/css.png?raw=true" width = "125" height="150" alt="CSS" />
+<img src="https://github.com/azimjonkamolov/azimjon/blob/master/assets/img/icons/html.png?raw=true" width = "125" height="150" alt="HTML" />
 </p>
 
 ## Functions that this website can handle so far ##
